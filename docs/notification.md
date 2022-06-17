@@ -3,9 +3,11 @@
 Notification Center offers another opportunity for providing feedback during script execution. Use the Standard Additions scripting addition’s `display notification` command to show notifications, such as status updates as files are processed. Notifications are shown as alerts or banners, depending on the user’s settings in *System Preferences > Notifications*.
 
 - **Banner notification**
+
   ![Banner](./img/notification/banner.png "Banner")
 
 - **Alert notification**
+
   ![Alert](./img/notification/alert.png "Alert")
 
 To show a notification, provide the display notification command with a string to display. Optionally, provide values for the with title, subtitle, and sound name parameters to provide additional information and an audible alert when the notification appears, as shown in Listing 24-1 and Listing 24-2.
