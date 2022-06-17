@@ -9,11 +9,11 @@ module AppleScript
     MINOR = 0
     # 0.0.x changes, such as small bug fixes
     PATCH = 0
-  end
 
-  # Gem version
-  # @return [String]
-  def self.version
-    "#{Core::Version::MAJOR}.#{Core::Version::MINOR}.#{Core::Version::PATCH}"
+    # Get current gem version
+    # @return [String]
+    def self.current
+      "#{MAJOR}.#{MINOR}.#{PATCH}"
+    end
   end
 end

@@ -12,4 +12,8 @@
 # rspec failure tracking
 .rspec_status
 
+Gemfile.lock
+
+apple_script-*.gem
+
 /lib_test
